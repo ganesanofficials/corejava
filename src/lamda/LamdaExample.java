@@ -2,6 +2,7 @@ package lamda;
 
 
 import java.util.function.BiFunction;
+import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class LamdaExample {
@@ -18,6 +19,9 @@ public class LamdaExample {
 
         BiFunction<Integer,Integer,Integer> function2 = (a,b)->a+b+b; // single line lambda expression with BIFunction
 
+        Consumer<String> consumer = (s)->{
+            System.out.println();
+        } // made some error;
 
     }
 
