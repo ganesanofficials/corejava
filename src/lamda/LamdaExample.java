@@ -19,9 +19,7 @@ public class LamdaExample {
 
         BiFunction<Integer,Integer,Integer> function2 = (a,b)->a+b+b; // single line lambda expression with BIFunction
 
-        Consumer<String> consumer = (s)->{
-            System.out.println();
-        } // made some error;
+        Consumer<String> consumer = System.out::println; // clear the error with method reference
 
     }
 
