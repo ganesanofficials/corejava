@@ -13,4 +13,8 @@ public class User implements Cloneable{
     protected User clone() throws CloneNotSupportedException {
         return (User)super.clone();
     }
+
+    public void printUser(){
+        System.out.println("Age :"+age+" Name : "+name);
+    }
 }
